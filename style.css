@@ -1,0 +1,221 @@
+/* html5doctor.com Reset Stylesheet */
+/* line 2, scss/style.scss */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 3, scss/style.scss */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 4, scss/style.scss */
+body {
+  line-height: 1.5;
+}
+
+/* line 5, scss/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 6, scss/style.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 7, scss/style.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 8, scss/style.scss */
+ins {
+  background-color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+
+/* line 9, scss/style.scss */
+mark {
+  background-color: rgba(255, 255, 255, 0.4);
+  font-style: inherit;
+  font-weight: bold;
+}
+
+/* line 10, scss/style.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 11, scss/style.scss */
+em {
+  font-style: italic;
+}
+
+/* line 12, scss/style.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 13, scss/style.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 14, scss/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 15, scss/style.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px dashed white;
+  width: 80%;
+  margin: 1em auto;
+  padding: 0;
+}
+
+/* line 16, scss/style.scss */
+input, select {
+  vertical-align: middle;
+}
+
+/* line 17, scss/style.scss */
+h1 {
+  font-size: 2em;
+  line-height: 100%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+/* line 18, scss/style.scss */
+h2 {
+  font-size: 1.1667em;
+  line-height: 128.6%;
+  margin-top: 1.143em;
+}
+
+/* line 19, scss/style.scss */
+p, ul, ol, dl, pre, code, blockquote {
+  font-size: 1em;
+}
+
+/* line 20, scss/style.scss */
+li {
+  margin-bottom: .75%;
+}
+
+/* line 21, scss/style.scss */
+small, aside {
+  font-size: 0.75em;
+}
+
+/* line 25, scss/style.scss */
+body {
+  color: #3f3333;
+  background-color: #feefef;
+  background-image: url(otis-redding.png);
+  font: 16px/1.6em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 32, scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: "Monda", sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* line 39, scss/style.scss */
+header, footer {
+  background-color: #FECCCC;
+  font-family: "Monda", sans-serif;
+  text-align: center;
+  padding: 1rem;
+  border-top: solid #3f3333 thick;
+  border-bottom: solid #3f3333 thick;
+}
+
+/* line 48, scss/style.scss */
+main {
+  display: flex;
+}
+
+/* line 52, scss/style.scss */
+div.flex-wrapper {
+  flex: 4;
+  padding-bottom: 1rem;
+}
+
+/* line 57, scss/style.scss */
+nav {
+  font-size: 85%;
+  padding: .5rem;
+  background-image: url("otis-redding.png");
+  background-color: #f1f1c1;
+  overflow: auto;
+  border-right: solid #3f3333 thick;
+  flex: 1 1 3rem;
+  align-items: stretch;
+}
+
+/* line 68, scss/style.scss */
+ul {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* line 73, scss/style.scss */
+ol {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1.7rem;
+}
+
+/* line 78, scss/style.scss */
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* line 82, scss/style.scss */
+a {
+  color: inherit;
+}
+
+/* line 98, scss/style.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 102, scss/style.scss */
+nav li {
+  float: left;
+  background-color: #d3f8f8;
+  border: solid 1px #3f3333;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+/* line 110, scss/style.scss */
+nav a {
+  color: #3f3333;
+}
